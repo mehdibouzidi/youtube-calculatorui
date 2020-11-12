@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("~bootstrap/dist/css/bootstrap.css");
+
+
+body{
+    width: 100vw;
+    height: 90vh;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a:link, a:visited {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #333;
+  }
+
+  .reset-btn{
+    background-color: red;
+    color: white;
+    margin-right: 10px !important;
+  }
+
+  .add-btn{
+    background-color: green;
+    color: white;
+  }
